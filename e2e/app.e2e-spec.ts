@@ -9,6 +9,7 @@ describe('seed-app App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to operator!');
+    expect(page.getButtonBarTitle()).toEqual('Select your action on a mission');
+    // page.makepause();
   });
 });

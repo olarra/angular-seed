@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.c-content {
+  font-family: 'Roboto-Thin';
+  text-align : center;
+  margin-top: 60px;
+  @include media-breakpoint-up(md) {
+  @include make-col(10);
+  @include make-col-offset(1);
+}
+}
